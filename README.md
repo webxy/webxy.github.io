@@ -4,4 +4,4 @@
 
 ### 说明
 
-感谢[http://yansu.org](http://yansu.org) suyan大大的分享，让我能够认识git，并且有了自己的博客，超级超级兴奋(PS:当然博客代码是suyan大大开源的).
+感谢[http://yansu.org](http://yansu.org) 闫肃大大的分享，让我能够认识git，并且有了自己的博客，超级超级兴奋(PS:当然博客代码是闫肃大大开源的).

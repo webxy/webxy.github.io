@@ -7,26 +7,26 @@ kramdown:
 
 # 作者信息
 author: 
-  name: 闫肃
-  email: suyan0830@gmail.com
-  link: http://yansu.org
-  weibo: http://weibo.com/yansu0711
-  github: http://github.com/suyan
+  name: 徐源
+  email: web_xy@126.com
+  link: http://webxy.cn
+  weibo: http://weibo.com/webxy
+  github: http://github.com/webxy
 
 # 站点信息
-title: 闫肃的博客 
-description: 闫肃的博客
-url: http://yansu.org
+title: 徐源的博客
+description: 徐源的博客
+url: http://webxy.cn
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: http://yansu-uploads.stor.sinaapp.com/imgs/gavatar.png
-favicon: http://yansu-uploads.stor.sinaapp.com/imgs/favicon.ico
+gavatar: http://image.zcool.com.cn/2013/16/10/1382266884272.jpg
+favicon: http://image.zcool.com.cn/2013/16/10/1382266884272.jpg
 
 # google analytics 设置
 ga:
   id: UA-54767140-1
-  url: yansu.org
+  url: webxy.cn
 
 # disqus 设置
 disqus:
