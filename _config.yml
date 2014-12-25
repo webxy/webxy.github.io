@@ -20,8 +20,8 @@ url: http://webxy.cn
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: http://image.zcool.com.cn/2013/16/10/1382266884272.jpg
-favicon: http://image.zcool.com.cn/2013/16/10/1382266884272.jpg
+gavatar: /public/img/photo.jpg
+favicon: /public/img/photo.jpg
 
 # google analytics 设置
 ga:
@@ -30,7 +30,7 @@ ga:
 
 # disqus 设置
 disqus:
-  shortname: suyan-zh
+  shortname: web_xy
 
 # 主题设置，自动激活某个标签
 active: 技术
