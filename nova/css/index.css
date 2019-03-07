@@ -43,6 +43,7 @@ ul {
   width: 0.42666667rem;
   height: 0.29333333rem;
   left: 50%;
+  z-index: 10;
   margin-left: -0.21333333rem;
   opacity: 100;
   animation: icon 0.8s infinite;
@@ -102,7 +103,8 @@ ul {
   width: 4.24rem;
 }
 .page2 {
-  background: #fff;
+  background: url("../images/p2-bg.jpg") no-repeat;
+  background-size: cover;
   position: relative;
 }
 .page2 .container {
@@ -111,29 +113,26 @@ ul {
   overflow: hidden;
 }
 .page2 .page2-1 {
-  background: #fff;
   position: relative;
   width: 100%;
   height: 100%;
-}
-.page2 .page2-1 img {
-  position: absolute;
+  text-align: center;
 }
 .page2 .page2-1 .p2-1 {
-  left: 0.64rem;
-  top: 0.72rem;
-  width: 3.06666667rem;
-  z-index: 2;
+  width: 5.90666667rem;
+  margin-top: 0.57333333rem;
 }
 .page2 .page2-1 .p2-2 {
-  left: 0.64rem;
-  top: 1.62666667rem;
-  width: 7.01333333rem;
-  z-index: 2;
+  width: 8.29333333rem;
+  margin-top: 0.30666667rem;
 }
-.page2 .page2-1 .p2-banner-1 .p2-3 {
+.page2 .page2-1 .p2-banner-1 {
+  width: 8.37333333rem;
+  height: 11.72rem;
+  margin-top: 0.34666667rem;
+}
+.page2 .page2-1 .p2-banner-1 img {
   width: 100%;
-  z-index: 1;
 }
 .page3 {
   background-color: #fff;
@@ -148,6 +147,14 @@ ul {
   position: relative;
   width: 100%;
   height: 100%;
+}
+.page3 .page2-2 .p2-title {
+  width: 6.84rem;
+  padding-top: 0.53333333rem;
+  margin: 0 auto;
+}
+.page3 .page2-2 .p2-title img {
+  width: 100%;
 }
 .page3 .page2-2 .p2-4 {
   position: absolute;
@@ -259,24 +266,24 @@ ul {
 }
 .page5 .p5-1 {
   position: absolute;
-  left: 1.30666667rem;
-  bottom: 3.46666667rem;
+  left: 0.44rem;
+  bottom: 3.81333333rem;
   z-index: 10;
-  width: 1.92rem;
+  width: 6.2rem;
 }
 .page5 .p5-2 {
   position: absolute;
-  left: 0.2rem;
-  bottom: 2.45333333rem;
+  left: 0.44rem;
+  bottom: 3.16rem;
   z-index: 10;
-  width: 4.82666667rem;
+  width: 7.36rem;
 }
 .page5 .p5-3 {
   position: absolute;
-  left: 0.22666667rem;
-  bottom: 1.37333333rem;
+  left: 0.44rem;
+  bottom: 2.34666667rem;
   z-index: 10;
-  width: 7.74666667rem;
+  width: 3.68rem;
 }
 .page6 {
   background: url("../images/p5-bg.jpg");
@@ -550,116 +557,6 @@ ul {
   overflow: hidden;
   font-size: 0;
 }
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-  -webkit-transform: scale(0.33);
-  -ms-transform: scale(0.33);
-  transform: scale(0.33);
-  position: relative;
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
-  -webkit-transform: scale(0.66);
-  -ms-transform: scale(0.66);
-  transform: scale(0.66);
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
-  -webkit-transform: scale(0.33);
-  -ms-transform: scale(0.33);
-  transform: scale(0.33);
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
-  -webkit-transform: scale(0.66);
-  -ms-transform: scale(0.66);
-  transform: scale(0.66);
-}
-.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
-  -webkit-transform: scale(0.33);
-  -ms-transform: scale(0.33);
-  transform: scale(0.33);
-}
-.swiper-pagination-bullet {
-  width: 8px;
-  height: 8px;
-  display: inline-block;
-  border-radius: 100%;
-  background: #000;
-  opacity: 0.2;
-}
-button.swiper-pagination-bullet {
-  border: none;
-  margin: 0;
-  padding: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-.swiper-pagination-clickable .swiper-pagination-bullet {
-  cursor: pointer;
-}
-.swiper-pagination-bullet-active {
-  opacity: 1;
-  background: #007aff;
-}
-.swiper-container-vertical > .swiper-pagination-bullets {
-  right: 10px;
-  top: 50%;
-  -webkit-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0);
-}
-.swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 6px 0;
-  display: block;
-}
-.swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 8px;
-}
-.swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-  display: inline-block;
-  -webkit-transition: 0.2s top, 0.2s -webkit-transform;
-  transition: 0.2s top, 0.2s -webkit-transform;
-  -o-transition: 0.2s transform, 0.2s top;
-  transition: 0.2s transform, 0.2s top;
-  transition: 0.2s transform, 0.2s top, 0.2s -webkit-transform;
-}
-.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 4px;
-}
-.swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  white-space: nowrap;
-}
-.swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-  -webkit-transition: 0.2s left, 0.2s -webkit-transform;
-  transition: 0.2s left, 0.2s -webkit-transform;
-  -o-transition: 0.2s transform, 0.2s left;
-  transition: 0.2s transform, 0.2s left;
-  transition: 0.2s transform, 0.2s left, 0.2s -webkit-transform;
-}
-.swiper-container-horizontal.swiper-container-rtl > .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
-  -webkit-transition: 0.2s right, 0.2s -webkit-transform;
-  transition: 0.2s right, 0.2s -webkit-transform;
-  -o-transition: 0.2s transform, 0.2s right;
-  transition: 0.2s transform, 0.2s right;
-  transition: 0.2s transform, 0.2s right, 0.2s -webkit-transform;
-}
 .swiper-pagination-progressbar {
   background: rgba(0, 0, 0, 0.25);
   position: absolute;
@@ -929,5 +826,22 @@ button.swiper-pagination-bullet {
 }
 .swiper-container-coverflow .swiper-wrapper {
   -ms-perspective: 1200px;
+}
+.swiper-pagination-bullet {
+  margin-top: 0.36rem;
+  width: 0.16rem;
+  height: 0.16rem;
+  border: 0.02666667rem solid #acacac;
+  background: #acacac;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.25333333rem;
+}
+.swiper-pagination-bullet-active {
+  width: 0.16rem;
+  height: 0.16rem;
+  border: 0.02666667rem solid #acacac;
+  background: transparent;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=index.css.map */

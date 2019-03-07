@@ -32,3 +32,20 @@ new Swiper('.page6-swiper-group', {
   loop: true
 });
 
+ new Swiper('.p2-banner-1', {
+  spaceBetween: 30,
+  effect: 'fade',
+  loop: true,
+   pagination: {
+     el: '.p2-banner-pagination',
+   },
+});
+
+ new Swiper('.p5-banner', {
+  spaceBetween: 30,
+  effect: 'fade',
+  loop: true,
+   pagination: {
+     el: '.p2-banner-pagination',
+   },
+});
